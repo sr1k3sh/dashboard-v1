@@ -1,0 +1,9 @@
+.shot-container{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+    width:fit-content;
+    height: 34%;
+    box-shadow: 1px 4px 7px 0px #d4d4d4b3;
+}

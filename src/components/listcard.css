@@ -1,0 +1,17 @@
+.pro{
+    object-fit: cover;
+    border-radius: 50%;
+}
+.list-card{
+    padding:5px;
+    margin-bottom: 4px;
+}
+.view-card{
+    padding:5px 0;
+    margin-bottom:4px;
+}
+.list-card:nth-child(even){
+    background:#fff;
+    border-radius: 7px;
+    box-shadow: 1px 4px 7px 0px #d4d4d4b3;
+}

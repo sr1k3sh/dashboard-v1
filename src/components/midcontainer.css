@@ -1,0 +1,44 @@
+.mid-container .stats-container{
+    display: grid;
+    grid-template-columns: 58% 21% 19%;
+    grid-gap:10px;
+}
+.mid-container .fan-container{
+    display: grid;
+    grid-template-columns: 56% 21% 20%;
+    grid-gap:10px;
+}
+.mid-container .stats-container .graph-container img{
+    width:100%;
+    border-radius: 16px;
+    box-shadow: 1px 4px 7px 0px #b0c4deb3;
+}
+.mid-container .stats-container .goal-card{
+    background:#465eef;
+    border-radius: 16px;
+    box-shadow: 1px 4px 7px 0px #b0c4deb3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left !important;
+    padding:20px;
+}
+.mid-container .stats-container .goal-card .goal-indicator{
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px 0px #fff, -3px 1px 1px 1px #546af5;
+   
+}
+.mid-container .stats-container .goal-card .goal-indicator span{
+    color:#fff;
+}
+.mid-container .stats-container .scores .score-card{
+    background:#fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+    height:34%;
+    box-shadow: 1px 4px 7px 0px #d4d4d4b3;
+   
+}

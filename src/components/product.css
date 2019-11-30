@@ -1,0 +1,19 @@
+.product-container{
+    display: flex;
+    flex-direction:column;
+    background: #fff;
+    border-radius: 15px;
+    position: relative;
+    justify-content: space-between;
+}
+.product-container .product-heading,.product-container .job-offers{
+    display: flex;
+    flex-direction:column;
+}
+.product-container .word-map{
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    left:0;
+    top:28%;
+}

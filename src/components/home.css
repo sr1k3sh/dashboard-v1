@@ -1,0 +1,8 @@
+.home-container{
+    width:80%;
+    height:72%;
+    background:#f4f6f8;
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: 5% 75% 20%;
+}
